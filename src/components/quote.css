@@ -1,0 +1,37 @@
+
+.body{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.quoteContainer{
+    background-color:rgb(255, 255, 255);
+    height:500px;
+    width:800px;
+    border-radius:10px;
+    display :flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title{
+    color: black;
+    
+}
+.author{
+    margin-left: 20rem;
+}
+
+button{
+    margin-left: 300px;
+    margin-top: 60px;
+    width: 250px;
+    border-radius: 30px;
+    border-color: rgb(255, 0, 0);
+}
+
+button:hover{
+    
+    background-color: rgb(44, 44, 44);
+}
