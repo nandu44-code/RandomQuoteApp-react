@@ -57,10 +57,10 @@ function Quote(props) {
             "{quote}"
           </h2>
         )}
-        {loading ?(<p className='author' style={{color:color}}>Loading..</p>):(<p className="author" style={{ color: color }}>
+        {loading ?(<p className='author' style={{color:color}}>Loading....</p>):(<p className="author" style={{ color: color }}>
           -{author}
         </p>)}
-        <button onClick={fetchNewQuote}>New Quote</button>
+        <button onClick={fetchNewQuote} style={{ backgroundColor:color }}>New Quote</button>
       </div>
     </>
   );
